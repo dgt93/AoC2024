@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AoC2024"
+version = "0.01"
+authors = [{name = "David Taylor"}]
+requires-python = ">= 3.13"
+dependencies = [
+    "black",
+    "flake8",
+    "isort",
+    "mypy"
+]
